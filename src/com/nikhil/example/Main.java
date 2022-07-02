@@ -41,7 +41,20 @@ public class Main {
         System.out.println(nineObj1 == nineObj2); // Two new objects are created hence false
 
         // Casting : When we want to convert one data type to another:
+        // Storing small values in large containers
 
+        int value = 100;
+        long num = value; // Implicit Casting
+
+        float floatNum = value;
+
+        // Explicit Casting:
+        // Explicit Casting is done through code. Storing larger values into smaller ones.
+
+        long longNum = 25687;
+        int intNum = (int)longNum;
+
+        System.out.println(intNum);
 
 
     }
